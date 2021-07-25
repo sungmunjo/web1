@@ -5,6 +5,13 @@
 
 
 <style>
+  #grid{
+    display:grid;
+    grid-template-columns: 150px 1fr;
+  }
+  div{
+
+  }
 body{
   margin:0px;
 }
@@ -30,6 +37,10 @@ body{
     width:100px;
     margin:0px;
     padding:20px;
+    padding-left: :33px;
+  }
+  #article{
+    padding-left: 25px;
   }
 
 </style>
@@ -60,14 +71,14 @@ gtag('config', 'G-ELQPB3PTXJ');
   ">
 밑에 있는 코드는 본문임 위에는 본문을 설명합니다.
 <h1><a href = "index.html">WEB</a></h1>
+<div id = "grid">
 
-<ol>
+    <ol>
+      <li><a href = "new.html" style = "color:green;text-decoration:underline">HTML</a></li>
+      <li><a href = "new3.html" id = "active">JavaScript</a></li>
+      <li><a href = "new2.html" class = "saw">CSS</a></li>
+    </ol>
 
-  <li><a href = "new.html" style = "color:green;text-decoration:underline">HTML</a></li>
-  <li><a href = "new2.html" class = "saw">CSS</a></li>
-  <li><a href = "new3.html" id = "active">JavaScript</a></li>
-</ol>
-<hr class = 'one'>
 <!--
 <h1><a href = "index.html"><font color = "red"> WEB</font></a></h1>
 
@@ -78,17 +89,16 @@ gtag('config', 'G-ELQPB3PTXJ');
   <li><a href = "new3.html"><font color = "red"> JavaScript</font></a></li>
 </ol>
 -->
-<h2> web</h2>
+  <div id = "article">
+    <h2> web</h2>
+    <p>
 
+      월드 와이드 웹(World Wide Web, WWW, W3)은 인터넷에 연결된 컴퓨터를 통해 사람들이 정보를 공유할 수 있는 전 세계적인 정보 공간을 말한다. 간단히 웹(the Web)이라 부르는 경우가 많다. 이 용어는 인터넷과 동의어로 쓰이는 경우가 많으나 엄격히 말해 서로 다른 개념이다. 웹은 전자 메일과 같이 인터넷 상에서 동작하는 하나의 서비스일 뿐이다. 그러나 1993년 이래로 웹은 인터넷 구조의 절대적 위치를 차지하고 있다.
 
-<p>
-
-  월드 와이드 웹(World Wide Web, WWW, W3)은 인터넷에 연결된 컴퓨터를 통해 사람들이 정보를 공유할 수 있는 전 세계적인 정보 공간을 말한다. 간단히 웹(the Web)이라 부르는 경우가 많다. 이 용어는 인터넷과 동의어로 쓰이는 경우가 많으나 엄격히 말해 서로 다른 개념이다. 웹은 전자 메일과 같이 인터넷 상에서 동작하는 하나의 서비스일 뿐이다. 그러나 1993년 이래로 웹은 인터넷 구조의 절대적 위치를 차지하고 있다.
-
-인터넷에서 HTTP 프로토콜, 하이퍼텍스트, HTML형식 등을 사용하여 그림과 문자를 교환하는 전송방식을 말하기도 한다.
-</p>
-
-
+      인터넷에서 HTTP 프로토콜, 하이퍼텍스트, HTML형식 등을 사용하여 그림과 문자를 교환하는 전송방식을 말하기도 한다.
+    </p>
+  </div>
+</div>
 </body>
 
 </html>
