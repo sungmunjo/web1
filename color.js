@@ -22,9 +22,6 @@ var body = {
   }
 }
 function night_day_handler(self){
-  var target = document.querySelector('body');
-  var i =0;
-  var alist = document.querySelectorAll('a');
   if(self.value === 'Night'){
     self.value = 'Day';
     body.setcolor("white");
