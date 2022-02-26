@@ -8,6 +8,11 @@ div{
 body{
   margin:0px;
 }
+
+  ol{
+    padding-left: 32px;
+  }
+
 h1{
   font-size:50px;
   text-align:center;
